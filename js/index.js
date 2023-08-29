@@ -164,6 +164,7 @@ if(descMood.innerHTML== "Light Mood"){
         root.style.setProperty("--color-input", "#ddd");
         root.style.setProperty("--scroll-bar", "#eee");
         root.style.setProperty("--btn-clear-color", "#fff");
+        root.style.setProperty("--header-card", "#5892e9");
         localStorage.setItem("moodPreference", "dark");
 
 }else{
@@ -179,6 +180,8 @@ if(descMood.innerHTML== "Light Mood"){
     root.style.setProperty("--color-input", "#5b5b5b");
     root.style.setProperty("--scroll-bar", "#222");
     root.style.setProperty("--btn-clear-color", "#fff");
+    root.style.setProperty("--header-card", "#518383");
+
     localStorage.setItem("moodPreference", "light");
 
 }
@@ -197,6 +200,10 @@ function checkMoode(){
         root.style.setProperty("--color-input", "#ddd");
         root.style.setProperty("--scroll-bar", "#eee");
         root.style.setProperty("--btn-clear-color", "#fff");
+        root.style.setProperty("--header-card", "#5892e9");
+
+   
+
 
     }else{
         img.setAttribute('src',"images/lightMood.png")
@@ -211,6 +218,7 @@ function checkMoode(){
     root.style.setProperty("--color-input", "#5b5b5b");
     root.style.setProperty("--scroll-bar", "#222");
     root.style.setProperty("--btn-clear-color", "#fff");
+    root.style.setProperty("--header-card", "#518383");
 
     }
 }

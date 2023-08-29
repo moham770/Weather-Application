@@ -10,7 +10,8 @@
   --color-card-active:#fff;
   --color-input:#5b5b5b;
   --scroll-bar:#222;
-  --btn-clear-color:#000
+  --btn-clear-color:#000ك
+  --header-card:##5892e9
 }
 
 /* ========> Global Rules */
@@ -248,7 +249,7 @@ section.forecast {
   }
 }
 .card.active .card-header {
-  background-color: var(--dark-yellow);
+  background-color: var(--header-card);
   border-radius: 20px 20px 0 0;
   display: flex;
   justify-content: space-between;
