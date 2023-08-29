@@ -2,13 +2,13 @@
 
 :root {
   --light-black: #2a2a2a;
-  --dark-black: #101014;
-  --light-yellow: #f6d58e;
-  --dark-yellow: #e3bb62;
-  --light-white: #f1f1f1;
+  --dark-black: #081828;
+  --light-yellow: #192633;
+  --dark-yellow: #518383;
+  --light-white: aliceblue;
   --mid-gray: #737377;
-  --color-card-active:#000;
-  --color-input:#2a2a2a;
+  --color-card-active:#fff;
+  --color-input:#5b5b5b;
   --scroll-bar:#222;
   --btn-clear-color:#000
 }
@@ -109,7 +109,7 @@ header .search-bar input {
   padding: 9px 50px;
   border-radius: 20px;
   background-color: var(--color-input);
-  color: #fff;
+  color: var(--color-card-active);
   font-size: 18px;
 }
 
@@ -119,7 +119,7 @@ header .search-bar input:focus-visible {
 
 header .search-bar input::placeholder {
   font-size: 17px;
-  color:#fff
+  color:var(--color-card-active)
 }
 
 header .search-bar i {

@@ -154,15 +154,15 @@ function switchMood(){
 if(descMood.innerHTML== "Light Mood"){
       img.setAttribute('src',"images/darkMood.png")
         descMood.innerHTML= "Dark Mood"
-        root.style.setProperty("--light-black", "#6187b8");
-        root.style.setProperty("--dark-black", "#a7a7ff");
-        root.style.setProperty("--light-yellow", "#3d6faf");
-        root.style.setProperty("--dark-yellow", "#254978");
-        root.style.setProperty("--light-white", "#f1f1f1");
+        root.style.setProperty("--light-black", "#eee");
+        root.style.setProperty("--dark-black", "#ccc");
+        root.style.setProperty("--light-yellow", "#a2aaf0");
+        root.style.setProperty("--dark-yellow", "#0056d6");;
+        root.style.setProperty("--light-white", "#100f0f");
         root.style.setProperty("--mid-gray", "#737377");
-        root.style.setProperty("--color-card-active", "#fff");
-        root.style.setProperty("--color-input", "#6187b8");
-        root.style.setProperty("--scroll-bar", "#6187b8");
+        root.style.setProperty("--color-card-active", "#000");
+        root.style.setProperty("--color-input", "#ddd");
+        root.style.setProperty("--scroll-bar", "#eee");
         root.style.setProperty("--btn-clear-color", "#fff");
         localStorage.setItem("moodPreference", "dark");
 
@@ -170,15 +170,15 @@ if(descMood.innerHTML== "Light Mood"){
     img.setAttribute('src',"images/lightMood.png")
     descMood.innerHTML= "Light Mood"
     root.style.setProperty("--light-black", "#2a2a2a");
-    root.style.setProperty("--dark-black", "#101014");
-    root.style.setProperty("--light-yellow", "#f6d58e");
-    root.style.setProperty("--dark-yellow", "#e3bb62");
-    root.style.setProperty("--light-white", "#f1f1f1");
+    root.style.setProperty("--dark-black", "#081828");
+    root.style.setProperty("--light-yellow", "#192633");
+    root.style.setProperty("--dark-yellow", "#518383");
+    root.style.setProperty("--light-white", "aliceblue");
     root.style.setProperty("--mid-gray", "#737377");
-    root.style.setProperty("--color-card-active", "#000");
-    root.style.setProperty("--color-input", "#2a2a2a");
+    root.style.setProperty("--color-card-active", "#fff");
+    root.style.setProperty("--color-input", "#5b5b5b");
     root.style.setProperty("--scroll-bar", "#222");
-    root.style.setProperty("--btn-clear-color", "#000");
+    root.style.setProperty("--btn-clear-color", "#fff");
     localStorage.setItem("moodPreference", "light");
 
 }
@@ -187,30 +187,30 @@ function checkMoode(){
     if(savedMood == "dark"){
         img.setAttribute('src',"images/darkMood.png")
         descMood.innerHTML= "Dark Mood"
-        root.style.setProperty("--light-black", "#6187b8");
-        root.style.setProperty("--dark-black", "#a7a7ff");
-        root.style.setProperty("--light-yellow", "#3d6faf");
-        root.style.setProperty("--dark-yellow", "#254978");
-        root.style.setProperty("--light-white", "#f1f1f1");
+        root.style.setProperty("--light-black", "#eee");
+        root.style.setProperty("--dark-black", "#ccc");
+        root.style.setProperty("--light-yellow", "#a2aaf0");
+        root.style.setProperty("--dark-yellow", "#0056d6");
+        root.style.setProperty("--light-white", "#100f0f");
         root.style.setProperty("--mid-gray", "#737377");
-        root.style.setProperty("--color-card-active", "#fff");
-        root.style.setProperty("--color-input", "#6187b8");
-        root.style.setProperty("--scroll-bar", "#6187b8");
+        root.style.setProperty("--color-card-active", "#000");
+        root.style.setProperty("--color-input", "#ddd");
+        root.style.setProperty("--scroll-bar", "#eee");
         root.style.setProperty("--btn-clear-color", "#fff");
 
     }else{
         img.setAttribute('src',"images/lightMood.png")
         descMood.innerHTML= "Light Mood"
         root.style.setProperty("--light-black", "#2a2a2a");
-        root.style.setProperty("--dark-black", "#101014");
-        root.style.setProperty("--light-yellow", "#f6d58e");
-        root.style.setProperty("--dark-yellow", "#e3bb62");
-        root.style.setProperty("--light-white", "#f1f1f1");
-        root.style.setProperty("--mid-gray", "#737377");
-        root.style.setProperty("--color-card-active", "#000");
-        root.style.setProperty("--color-input", "#2a2a2a");
-        root.style.setProperty("--scroll-bar", "#222");
-    root.style.setProperty("--btn-clear-color", "#000");
+    root.style.setProperty("--dark-black", "#081828");
+    root.style.setProperty("--light-yellow", "#192633");
+    root.style.setProperty("--dark-yellow", "#518383");
+    root.style.setProperty("--light-white", "aliceblue");
+    root.style.setProperty("--mid-gray", "#737377");
+    root.style.setProperty("--color-card-active", "#fff");
+    root.style.setProperty("--color-input", "#5b5b5b");
+    root.style.setProperty("--scroll-bar", "#222");
+    root.style.setProperty("--btn-clear-color", "#fff");
 
     }
 }
