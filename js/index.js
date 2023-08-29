@@ -63,7 +63,7 @@ function displayWeather(data){
     <p class="country"><span class="fw-bold">${data.location.name}</span>,${data.location.country}</p>
     </div>
     <div class="card-body">
-      <img src="../images/conditions/${day.hour[now.getHours()].condition.text}.svg"/>
+      <img src="images/conditions/${day.hour[now.getHours()].condition.text}.svg"/>
       <div class="degree">${day.hour[now.getHours()].temp_c}C°</div>
     </div>
     <div class="card-data">
