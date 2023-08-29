@@ -164,7 +164,7 @@ if(descMood.innerHTML== "Light Mood"){
         root.style.setProperty("--color-input", "#ddd");
         root.style.setProperty("--scroll-bar", "#eee");
         root.style.setProperty("--btn-clear-color", "#fff");
-        root.style.setProperty("--header-card", "#5892e9");
+        root.style.setProperty("--header-card", "#ddd");
         localStorage.setItem("moodPreference", "dark");
 
 }else{
@@ -200,10 +200,7 @@ function checkMoode(){
         root.style.setProperty("--color-input", "#ddd");
         root.style.setProperty("--scroll-bar", "#eee");
         root.style.setProperty("--btn-clear-color", "#fff");
-        root.style.setProperty("--header-card", "#5892e9");
-
-   
-
+        root.style.setProperty("--header-card", "#ddd");
 
     }else{
         img.setAttribute('src',"images/lightMood.png")
