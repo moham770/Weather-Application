@@ -154,33 +154,35 @@ function switchMood(){
 if(descMood.innerHTML== "Light Mood"){
       img.setAttribute('src',"images/darkMood.png")
         descMood.innerHTML= "Dark Mood"
-        root.style.setProperty("--light-black", "#eee");
-        root.style.setProperty("--dark-black", "#ccc");
-        root.style.setProperty("--light-yellow", "#a2aaf0");
-        root.style.setProperty("--dark-yellow", "#0056d6");;
+        root.style.setProperty("--light-black", "#a5b5ca");
+        root.style.setProperty("--dark-black", "#90a5b9");
+        root.style.setProperty("--light-yellow", "#7190ae");
+        root.style.setProperty("--dark-yellow", "#123b63");;
         root.style.setProperty("--light-white", "#100f0f");
         root.style.setProperty("--mid-gray", "#737377");
         root.style.setProperty("--color-card-active", "#000");
-        root.style.setProperty("--color-input", "#ddd");
-        root.style.setProperty("--scroll-bar", "#eee");
+        root.style.setProperty("--color-input", "#ADB5BD");
+        root.style.setProperty("--scroll-bar", "#123b63");
         root.style.setProperty("--btn-clear-color", "#fff");
-        root.style.setProperty("--header-card", "#ddd");
+        root.style.setProperty("--header-card", "#537aa0");
+        root.style.setProperty("--color-inside-input", "#222");
         localStorage.setItem("moodPreference", "dark");
 
 }else{
     img.setAttribute('src',"images/lightMood.png")
     descMood.innerHTML= "Light Mood"
-    root.style.setProperty("--light-black", "#2a2a2a");
-    root.style.setProperty("--dark-black", "#081828");
-    root.style.setProperty("--light-yellow", "#192633");
+    root.style.setProperty("--light-black", "#1B263B");
+    root.style.setProperty("--dark-black", "#0D1B2A");
+    root.style.setProperty("--light-yellow", "#778DA9");
     root.style.setProperty("--dark-yellow", "#518383");
     root.style.setProperty("--light-white", "aliceblue");
     root.style.setProperty("--mid-gray", "#737377");
-    root.style.setProperty("--color-card-active", "#fff");
+    root.style.setProperty("--color-card-active", "#000");
     root.style.setProperty("--color-input", "#5b5b5b");
-    root.style.setProperty("--scroll-bar", "#222");
+    root.style.setProperty("--scroll-bar", "#415A77");
     root.style.setProperty("--btn-clear-color", "#fff");
-    root.style.setProperty("--header-card", "#518383");
+    root.style.setProperty("--header-card", "#415A77");
+    root.style.setProperty("--color-inside-input", "#fff");
 
     localStorage.setItem("moodPreference", "light");
 
@@ -190,32 +192,35 @@ function checkMoode(){
     if(savedMood == "dark"){
         img.setAttribute('src',"images/darkMood.png")
         descMood.innerHTML= "Dark Mood"
-        root.style.setProperty("--light-black", "#eee");
-        root.style.setProperty("--dark-black", "#ccc");
-        root.style.setProperty("--light-yellow", "#a2aaf0");
-        root.style.setProperty("--dark-yellow", "#0056d6");
+        root.style.setProperty("--light-black", "#a5b5ca");
+        root.style.setProperty("--dark-black", "#90a5b9");
+        root.style.setProperty("--light-yellow", "#7190ae");
+        root.style.setProperty("--dark-yellow", "#123b63");;
         root.style.setProperty("--light-white", "#100f0f");
         root.style.setProperty("--mid-gray", "#737377");
         root.style.setProperty("--color-card-active", "#000");
-        root.style.setProperty("--color-input", "#ddd");
-        root.style.setProperty("--scroll-bar", "#eee");
+        root.style.setProperty("--color-input", "#ADB5BD");
+        root.style.setProperty("--scroll-bar", "#123b63");
         root.style.setProperty("--btn-clear-color", "#fff");
-        root.style.setProperty("--header-card", "#ddd");
+        root.style.setProperty("--header-card", "#537aa0");
+        root.style.setProperty("--color-inside-input", "#222");
+
 
     }else{
         img.setAttribute('src',"images/lightMood.png")
         descMood.innerHTML= "Light Mood"
-        root.style.setProperty("--light-black", "#2a2a2a");
-    root.style.setProperty("--dark-black", "#081828");
-    root.style.setProperty("--light-yellow", "#192633");
+        root.style.setProperty("--light-black", "#1B263B");
+    root.style.setProperty("--dark-black", "#0D1B2A");
+    root.style.setProperty("--light-yellow", "#778DA9");
     root.style.setProperty("--dark-yellow", "#518383");
     root.style.setProperty("--light-white", "aliceblue");
     root.style.setProperty("--mid-gray", "#737377");
-    root.style.setProperty("--color-card-active", "#fff");
+    root.style.setProperty("--color-card-active", "#000");
     root.style.setProperty("--color-input", "#5b5b5b");
-    root.style.setProperty("--scroll-bar", "#222");
+    root.style.setProperty("--scroll-bar", "#415A77");
     root.style.setProperty("--btn-clear-color", "#fff");
-    root.style.setProperty("--header-card", "#518383");
+    root.style.setProperty("--header-card", "#415A77");
+    root.style.setProperty("--color-inside-input", "#fff    ");
 
     }
 }

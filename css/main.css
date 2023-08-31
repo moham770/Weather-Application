@@ -11,7 +11,9 @@
   --color-input:#5b5b5b;
   --scroll-bar:#222;
   --btn-clear-color:#000ك
-  --header-card:##5892e9
+  --header-card:##5892e9;
+  --color-inside-input:#fff
+
 }
 
 /* ========> Global Rules */
@@ -110,7 +112,7 @@ header .search-bar input {
   padding: 9px 50px;
   border-radius: 20px;
   background-color: var(--color-input);
-  color: var(--color-card-active);
+  color: var(--color-inside-input);
   font-size: 18px;
 }
 
@@ -120,7 +122,7 @@ header .search-bar input:focus-visible {
 
 header .search-bar input::placeholder {
   font-size: 17px;
-  color:var(--color-card-active)
+  color:var(--color-inside-input)
 }
 
 header .search-bar i {
